@@ -145,7 +145,7 @@ ASGI_APPLICATION = 'chat_proj.asgi.application'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
-    "https://chat-app-backend-qzn8.onrender.com"
+    "https://chat-app-backend-qzn8.onrender.com",
     "https://chat-app-frotend.vercel.app"
 ]
 
@@ -155,7 +155,7 @@ CSRF_TRUSTED_ORIGINS = [
     'http://localhost:3000', 
     'http://127.0.0.1:3000',
     'https://chat-app-backend-qzn8.onrender.com',
-    'https://chat-app-frotend.vercel.app'
+    'https://chat-app-frotend.vercel.app',
 
 ]
 
